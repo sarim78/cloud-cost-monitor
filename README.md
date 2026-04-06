@@ -1,5 +1,5 @@
 # Cloud Cost Monitor
-
+> 🚧 **Work in Progress** --> This project is actively under development. Core modules are scaffolded and logic is being implemented. AWS deployment and live testing coming soon.
 A serverless AWS tool that monitors cloud spending and resource usage, detects anomalies, and sends real-time alerts before costs spiral out of control.
 
 Built with AWS Lambda, Cost Explorer, CloudWatch, and SNS.
