@@ -46,6 +46,8 @@ def log_alert(alert_type, message, daily_spend=None, threshold=None, projected=N
         threshold,
         projected
     ))
+    
+    # Commit the transaction and close the connection.
     conn.commit()
     conn.close()
 
@@ -61,6 +63,9 @@ def get_recent_alerts(limit=10):
         ORDER BY id DESC
         LIMIT ?
     """, (limit,))
+    
+    # Fetch all rows and close the connection.
     rows = cursor.fetchall()
     conn.close()
+
     return rows
