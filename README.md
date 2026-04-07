@@ -19,7 +19,7 @@ Cloud Cost Monitor runs automatically every 24 hours as a scheduled Lambda funct
 - Detects spending spikes and projected budget overages
 - Sends real-time email and SMS alerts via AWS SNS
 - Logs all alerts to a SQLite database for trend tracking over time
-- Runs fully serverless — no infrastructure to manage
+- Runs fully serverless; no infrastructure to manage
 
 ---
 
