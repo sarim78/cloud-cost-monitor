@@ -144,3 +144,6 @@ Logged at: 2026-04-05 08:00:00 UTC
 ```
 
 ---
+
+## License
+MIT
